@@ -4,7 +4,6 @@ import Apax from "./Apax.js";
 export default {
     install(Vue) {
         Vue.component("Icon", Icon);
-    }
+    },
+    Apax
 }
-
-module.exports.Apax = Apax;
