@@ -1,5 +1,5 @@
 <template>
-  <div>Icon</div>
+  <span class="material-icons"><slot></slot></span>
 </template>
 
 <script>
@@ -7,4 +7,5 @@ export default {};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
 </style>
