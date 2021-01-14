@@ -1,7 +1,9 @@
 <template>
   <div
     class="pbl-pic"
-    style="background-image: url('image (11).jpg'); margin-bottom: 20px"
+    v-bind:style="{
+      'background-image': 'url(\'' + require(src) + '\')',
+    }"
   >
     <div></div>
     <div></div>
@@ -9,7 +11,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["src"],
+};
 </script>
 
 <style lang="scss" scoped>
