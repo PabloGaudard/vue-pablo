@@ -1,6 +1,6 @@
 {
   "name": "vue-pablo",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "An awesome colletions of vue components",
   "main": "index.js",
   "scripts": {
