@@ -1,19 +1,12 @@
 <template>
-  <div
-    class="pbl-pic"
-    v-bind:style="{
-      'background-image': 'url(\'' + src + '\')',
-    }"
-  >
+  <div class="pbl-pic">
     <div></div>
     <div></div>
   </div>
 </template>
 
 <script>
-export default {
-  props: ["src"],
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
