@@ -2,7 +2,7 @@
   <div
     class="pbl-pic"
     v-bind:style="{
-      'background-image': 'url(\'' + require(src) + '\')',
+      'background-image': 'url(\'' + src + '\')',
     }"
   >
     <div></div>
