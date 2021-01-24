@@ -29,8 +29,8 @@ export default {};
     background-repeat: no-repeat;
     &:nth-of-type(1) {
       background-size: cover;
-      filter: blur(3px);
-      opacity: 0.6;
+      filter: blur(2px);
+      opacity: 0.75;
     }
     &:nth-of-type(2) {
       background-size: contain;
