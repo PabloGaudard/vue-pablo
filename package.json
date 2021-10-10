@@ -11,5 +11,8 @@
     "components"
   ],
   "author": "Pablo Gaudard",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "dist/*.scss"
+  ]
 }
